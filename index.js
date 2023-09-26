@@ -11,7 +11,7 @@ import shortid from "shortid";
 
 dotenv.config();
 const firebaseConfig = {
-  apiKey: "AIzaSyDbJnRowz12dNnhrGduNeqWDhNpjFFOBPk",
+  apiKey: process.env.FIREBASE_API,
   authDomain: "sjbhsmun-2023.firebaseapp.com",
   projectId: "sjbhsmun-2023",
   storageBucket: "sjbhsmun-2023.appspot.com",
